@@ -1,0 +1,43 @@
+<html>
+    Functions in JS <br><br>
+    <body>
+        <p>Variable x is 5</p><br><br>
+        <p>Variable y is 8</p><br><br>
+        <button onclick="myfunction(5,8)">Execute Addition</button>
+        <button onclick="myfunction1(5,8)">Execute Subtraction</button>
+        <button onclick="myfunction2(5,8)">Execute Multiplication</button>
+        <button onclick="myfunction3(5,8)">Execute Division</button>
+
+        <script>
+            
+            function myfunction(x,y)
+            {
+                if (y=== undefined) {
+                    y = 2;
+                }
+                document.write(x + y);
+            }
+            function myfunction1(x,y)
+            {
+                if (y=== undefined) {
+                    y = 2;
+                }
+                document.write(x - y)
+            }
+            function myfunction2(x,y)
+            {
+                if (y=== undefined) {
+                    y = 2;
+                }
+                document.write(x * y)
+            }
+            function myfunction3(x,y)
+            {
+                if (y=== undefined) {
+                    y = 2;
+                }
+                document.write(x / y)
+            }
+        </script>
+    </body>
+</html>
